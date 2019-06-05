@@ -1,0 +1,14 @@
+[
+	{
+		"imgSrc": "./path/image.png",
+		"imgTitle": "image 1"
+	},
+	{
+		"imgSrc": "./path/image.png",
+		"imgTitle": "image 2"
+	},
+	{
+		"imgSrc": "./path/image.png",
+		"imgTitle": "image 3"
+	}
+]
