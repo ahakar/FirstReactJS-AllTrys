@@ -1,0 +1,136 @@
+ahakar@gmail.com
+
+1. javascript(higher order language) ----> v8 engine module (google) ----> machine codes(bytes codes)..
+2. React js ---> babel (compiler for js) Es6 ---> Es5 ---> javascript --> v8 engine --> byte codes.
+3. webpack --> module bundler fro all assets. ---> main usage is to convert it to single bundle file (browser)...
+4. ES6 SYNTAX and jsx (html + javascript).
+
+
+MERN   -> MONGO_DB - EXPRESS_JS - REACT_JS - NODE_JS
+MEAN
+
+
+Environment SEtup: 
+
+1. node js for your os.
+2. Install react js --> npm install create-react-app --save -g
+3. Create new app --> create-react-app  client
+4. start your application --> npm start
+
+
+login --> email and password --> api end point
+
+
+method: post ,  api url, {email: "abc@gmail.com", password: "12345"}
+
+
+REact-Router
+
+Browser Router
+1. localhost:3000/home
+2. stores history from the browser.
+3. online active apps.
+
+Hash Router
+1.localhost:3000/#/home
+2. offline apps
+3. hash history in build.
+
+
+REST opERATOR: CONCAT TWO ARRAYS
+LET ARRAY1 = ['A', 'b'], array2 = ['c', 'd'];
+array1 = [...array1, ...array2];
+
+obj: {
+	title: ""
+}
+
+axios.post('url', this.state.obj)
+.then(res => {
+	
+})
+
+
+axios({
+	method: 'ppost',
+	header: '',
+
+}).then(res => {
+	
+})
+
+REdux:
+ -->state management 
+ --> library to store data in front end side. wrapped inside an object.
+ --> we can connect it with localstorage (browser storage will have limit of 10MB).
+ --> data that we are storing it in redux becomes global across your components.
+
+
+PArent A
+child1
+child2
+child3 --> data (state) --> redux
+
+
+Parent B
+child1
+child2 ---> redux object
+
+
+ParentC
+child1
+child2
+child3
+child4 --->  redux object
+
+
+
+
+array [
+
+	0: history
+	1:hello
+	2:go
+];
+
+
+delete 1 index: 
+
+0:history
+2:go
+
+
+0: history
+1: go
+
+
+update: 
+
+
+array [
+
+	0: history
+	1:hello
+	2:go
+];
+
+
+
+
+
+1. ComponenDidMount ---> api calls (this.props)..... ||| default functions 
+2. componentWillREceiveProps --> updation process (capture the newProps intot the component),  (newPROPS)
+eg: redux 100 products:
+20 products.. -- >state array=[20]
+,
+[40]
+3.shoudlComponentUpdate --> return true; if(condition < 50) {
+	return true
+}
+else{
+	return false
+}
+
+
+ahakar
+
